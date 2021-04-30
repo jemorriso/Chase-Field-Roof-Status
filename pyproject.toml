@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "diamondbacks-roof"
+version = "0.1.0"
+description = "Get the status of Chase Field's roof for upcoming games."
+authors = ["Jeremy Morrison <jeremy.morrison36@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+beautifulsoup4 = "^4.9.3"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.1"
+black = "^21.4b2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
